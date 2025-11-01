@@ -6,7 +6,7 @@ async function bootstrap() {
 
   app.enableCors({
     origin: [
-      'http://localhost:3000',
+      'http://localhost:5000',
       ‘{https://port-next-gdgoc-front-mhg09kkvc32b102e.sel3.cloudtype.app/}',
     ],
     credentials: true,
